@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4968F69C2107DD1400BA5435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968F69B2107DD1400BA5435 /* AppDelegate.swift */; };
 		49C5A93720F91E62009F2D15 /* DocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5A93620F91E62009F2D15 /* DocumentsViewController.swift */; };
 		49C5A93A20F91E62009F2D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C5A93820F91E62009F2D15 /* Main.storyboard */; };
 		49C5A93D20F91E62009F2D15 /* CoreDataRelationships.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49C5A93B20F91E62009F2D15 /* CoreDataRelationships.xcdatamodeld */; };
@@ -19,10 +20,10 @@
 		49C5A95420F92A13009F2D15 /* Document+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5A95020F92A13009F2D15 /* Document+CoreDataProperties.swift */; };
 		49C5A95520F92A13009F2D15 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5A95120F92A13009F2D15 /* Category+CoreDataClass.swift */; };
 		49C5A95620F92A13009F2D15 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5A95220F92A13009F2D15 /* Category+CoreDataProperties.swift */; };
-		49C5A97920F9346D009F2D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5A97820F9346D009F2D15 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4968F69B2107DD1400BA5435 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49C5A93120F91E61009F2D15 /* CoreDataRelationships.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataRelationships.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C5A93620F91E62009F2D15 /* DocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsViewController.swift; sourceTree = "<group>"; };
 		49C5A93920F91E62009F2D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		49C5A95020F92A13009F2D15 /* Document+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Document+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		49C5A95120F92A13009F2D15 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
 		49C5A95220F92A13009F2D15 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		49C5A97820F9346D009F2D15 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../DocumentsCoreDataRelationships/DocumentsCoreDataRelationships/AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +70,9 @@
 		49C5A93320F91E61009F2D15 /* CoreDataRelationships */ = {
 			isa = PBXGroup;
 			children = (
-				49C5A97820F9346D009F2D15 /* AppDelegate.swift */,
 				49C5A94F20F92A13009F2D15 /* Document+CoreDataClass.swift */,
 				49C5A95020F92A13009F2D15 /* Document+CoreDataProperties.swift */,
+				4968F69B2107DD1400BA5435 /* AppDelegate.swift */,
 				49C5A95120F92A13009F2D15 /* Category+CoreDataClass.swift */,
 				49C5A95220F92A13009F2D15 /* Category+CoreDataProperties.swift */,
 				49C5A94920F9254B009F2D15 /* CategoryViewController.swift */,
@@ -159,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4968F69C2107DD1400BA5435 /* AppDelegate.swift in Sources */,
 				49C5A94A20F9254B009F2D15 /* CategoryViewController.swift in Sources */,
 				49C5A94E20F92656009F2D15 /* NewCategoryViewController.swift in Sources */,
 				49C5A95420F92A13009F2D15 /* Document+CoreDataProperties.swift in Sources */,
@@ -167,7 +168,6 @@
 				49C5A95320F92A13009F2D15 /* Document+CoreDataClass.swift in Sources */,
 				49C5A93D20F91E62009F2D15 /* CoreDataRelationships.xcdatamodeld in Sources */,
 				49C5A95620F92A13009F2D15 /* Category+CoreDataProperties.swift in Sources */,
-				49C5A97920F9346D009F2D15 /* AppDelegate.swift in Sources */,
 				49C5A95520F92A13009F2D15 /* Category+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
